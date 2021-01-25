@@ -64,7 +64,28 @@
   <div class="container">
     <div class="columns is-8 is-variable">
       <div class="column is-7-tablet">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut perferendis optio, accusamus rerum dolores nisi fugiat! Fugiat consequatur recusandae reprehenderit sequi quas minus doloribus. Vitae, et voluptatibus? Odio, quaerat cupiditate.</p>
+        <div class="tabs is-boxed">
+          <ul>
+            <li class="is-active" data-target="product-details">
+              <a>Product Details</a>
+            </li>
+            <li data-target="delivery-information">
+              <a>Delivery Information</a>
+            </li>
+          </ul>
+        </div>
+        <div class="px-2" id="tab-content">
+          <div id="product-details">
+            <h3 class="is-size-5 title">Product Details</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ea? Minima dicta quod cupiditate ipsam laboriosam, libero aspernatur ad sapiente incidunt facilis recusandae maiores eius ducimus. Ducimus eius nesciunt ipsa!
+            </p>
+          </div>
+          <div id="delivery-information" class="is-hidden">
+            <h3 class="is-size-5 title">Delivery Information</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ea? Minima dicta quod cupiditate ipsam laboriosam, libero aspernatur ad sapiente incidunt facilis recusandae maiores eius ducimus. Ducimus eius nesciunt ipsa!
+            </p>
+          </div>
+        </div>
       </div>
       <div class="column is-5-tablet">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus enim amet architecto earum totam maxime officiis nisi, ea corrupti voluptas quasi. Assumenda possimus enim vitae modi accusantium voluptas et laborum?</p>
